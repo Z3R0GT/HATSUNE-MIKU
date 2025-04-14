@@ -210,7 +210,7 @@ delete global.conns[i]
 global.conns.splice(i, 1)
 }}, 60000)
 
-let handler = await import('../miku/handler.js')
+let handler = await import('../core/handler.js')
 let creloadHandler = async function (restatConn) {
 try {
 const Handler = await import(`../miku/handler.js?update=${Date.now()}`).catch(console.error)

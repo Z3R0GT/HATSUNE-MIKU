@@ -12,6 +12,7 @@
     "scripts": {
         "start": "node index.js",
         "qr": "node index.js qr",
+        "debug": "node index-tmp.js",
         "code": "node index.js code",
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
